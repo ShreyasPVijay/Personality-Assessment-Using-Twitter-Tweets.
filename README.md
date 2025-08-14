@@ -1,7 +1,7 @@
 # Introduction
 This is a *machine learning* project. This trained machine learning classifier can predict a person's **MBTI**(Myers–Briggs Type Indicator)
 personality type using an individual's *social media posts* like **twitter posts**. For better understanding and explanation of decision made
-in this project, a [jupyter notebook](./main.ipynb) is provided, which contains all the *code, explanation, analysis (EDA), model performance and analysis of
+in this project, a jupyter notebook is provided, which contains all the *code, explanation, analysis (EDA), model performance and analysis of
 our trained models*.
 
 ### About MBTI
@@ -24,7 +24,7 @@ Few features of dataset are:
 ### Caveats
 We have trained individiual classifier for each characterstics pair. Although script's final prediction will be complete MBTI type, the first 2
 pairs/models i.e. Introversion/Extroversion and Intuition/Sensing are not reliable at any level, due to the fact that data regarding these characterstics
-is heavily biased towards single attribute. For more explanation or better understanding, look at this [jupter notebook](./main.ipynb).
+is heavily biased towards single attribute. For more explanation or better understanding, look at this jupter notebook
 
 
 # Usage
