@@ -13,7 +13,7 @@ The Myers Briggs Type Indicator (or MBTI for short) is a personality type system
 You can read more about the MBTI test [here](https://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator).
 
 # Dataset
-The dataset on which this classifier is trained, contains around 50 posts per user about 8000 users with their *MBTI*
+The dataset on which this classifier is trained, contains around 50 posts per user about 5000 users with their *MBTI*
 personality type known. Dataset is provided in the repo itself personality-test.csv.
 <br>
 Few features of dataset are:
@@ -71,7 +71,7 @@ python3 main.py <username>
 * colorama
 
 # Conclusions
- Our Twitter personality detection system successfully harnessed the power of diverse
+ The Twitter personality detection system successfully harnessed the power of diverse
  machine learning models, demonstrating efficient accuracy across various personality dichotomies.
  The strategic reduction of MBTI classes from 16 to 4 enhanced model efficiency. The
  preprocessing phase played a crucial role in refining the raw textual data, ensuring that the
