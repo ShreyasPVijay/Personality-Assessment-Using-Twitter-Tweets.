@@ -17,7 +17,7 @@ The dataset on which this classifier is trained, contains around 50 posts per us
 personality type known. Dataset is provided in the repo itself personality-test.csv.
 <br>
 Few features of dataset are:
-* Posts of more than 8000 users.
+* Posts of more than 5000 users.
 * Last 50 posts per user, each entry is separated by '|||'.
 
 ### Caveats
@@ -31,6 +31,23 @@ is heavily biased towards single attribute. For more explanation or better under
 python3 main.py <username>
 ```
 **NOTE**: **&lt;username&gt;** is twitter handle of target user(without @)
+
+# System Requirements
+# Python 3.10.0
+ Python can be used for many kinds of software development. It offers strong support for
+ integration with other languages and tools, comes with extensive standard libraries.
+ 
+# Jupyter Notebook v4.11
+ The Jupyter Notebook is an open-source web application that can be use to create and
+ share documents that contain live code, equations, visualizations, and text. Jupyter Notebook
+ is maintained by the people at Project Jupyter
+# Hardware Requirements
+ • RAM:Atleast 12-16 GB of RAM is required.
+ • Storage: The model training and implementation may require a maximum of 10 GB of
+ storage.
+ • Processor: A multi-core processor with at least 2 GHz clock speed is needed.
+ • GPU/TPU: An optional graphical processing unit or tensor processing unit can increase
+ processing speed
 
 # Dependencies
 * python 3.x
