@@ -1,9 +1,8 @@
 # Introduction
 This is a *machine learning* project. This trained machine learning classifier can predict a person's **MBTI**(Myers–Briggs Type Indicator)
-personality type using an individual's *social media posts* like **twitter posts**. For better understanding and explanation of decision made
-in this project, a jupyter notebook is provided, which contains all the *code, explanation, analysis (EDA), model performance and analysis of
-our trained models*.
-
+personality type using an individual's *social media posts* like **twitter posts**.  By leveraging machine learning models to classify Twitter users
+ based on their MBTI personality types, this project explores the potential for enhancing user experience and engagement on the platform, opening avenues for personalized content delivery and community building in the digital space
+ 
 ### About MBTI
 The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
 * **Introversion** (I)/**Extroversion** (I)
@@ -41,3 +40,13 @@ python3 main.py <username>
 * sklearn
 * nltk
 * colorama
+
+# Conclusions
+ Our Twitter personality detection system successfully harnessed the power of diverse
+ machine learning models, demonstrating efficient accuracy across various personality dichotomies.
+ The strategic reduction of MBTI classes from 16 to 4 enhanced model efficiency. The
+ preprocessing phase played a crucial role in refining the raw textual data, ensuring that the
+ models focused on meaningful content. By utilizing various models, we explored a multimodal-binary class approach, allowing
+ each model to specialize in discerning distinct personality traits. The Confusion Matrices
+ further illuminated the models’ strengths in capturing nuanced patterns within the Twitter
+ account posts
