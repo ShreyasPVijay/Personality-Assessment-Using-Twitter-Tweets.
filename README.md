@@ -3,7 +3,7 @@ This is a *machine learning* project. This trained machine learning classifier c
 personality type using an individual's *social media posts* like **twitter posts**.  By leveraging machine learning models to classify Twitter users
  based on their MBTI personality types, this project explores the potential for enhancing user experience and engagement on the platform, opening avenues for personalized content delivery and community building in the digital space
  
-### About MBTI
+# About MBTI
 The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
 * **Introversion** (I)/**Extroversion** (I)
 * **Intuition** (N)/**Sensing** (S)
@@ -12,7 +12,7 @@ The Myers Briggs Type Indicator (or MBTI for short) is a personality type system
 <br>
 You can read more about the MBTI test [here](https://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator).
 
-### Dataset
+# Dataset
 The dataset on which this classifier is trained, contains around 50 posts per user about 8000 users with their *MBTI*
 personality type known. Dataset is provided in the repo itself personality-test.csv.
 <br>
@@ -20,7 +20,19 @@ Few features of dataset are:
 * Posts of more than 5000 users.
 * Last 50 posts per user, each entry is separated by '|||'.
 
-### Caveats
+# Proposed System
+ The Twitter personality detection system employs a comprehensive architecture consisting
+ of interconnected modules. The Data Collection Module gathers tweets using the Twitter API,
+ followed by the Preprocessing Module refining data through stop word removal, stemming,
+ and emoji conversion. Next, the Feature Extraction Module extracts language patterns and
+ sentiment, feeding into the advanced Personality Classification Model. This model, utilizing
+ machine learning algorithms, categorizes users into personality types. Finally, the Output
+ Module generates detailed reports on predicted personalities and classification evidence. This
+ architecture’s flow and interdependence of modules highlight its intricacy and coherence. Its
+ versatility spans domains like targeted marketing, robust fraud detection, and aiding mental
+ health assessments
+
+#Caveats
 We have trained individiual classifier for each characterstics pair. Although script's final prediction will be complete MBTI type, the first 2
 pairs/models i.e. Introversion/Extroversion and Intuition/Sensing are not reliable at any level, due to the fact that data regarding these characterstics
 is heavily biased towards single attribute. For more explanation or better understanding, look at this jupter notebook.
