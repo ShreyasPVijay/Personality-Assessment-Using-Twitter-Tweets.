@@ -32,7 +32,7 @@ Few features of dataset are:
  versatility spans domains like targeted marketing, robust fraud detection, and aiding mental
  health assessments
 
-#Caveats
+# Caveats
 We have trained individiual classifier for each characterstics pair. Although script's final prediction will be complete MBTI type, the first 2
 pairs/models i.e. Introversion/Extroversion and Intuition/Sensing are not reliable at any level, due to the fact that data regarding these characterstics
 is heavily biased towards single attribute. For more explanation or better understanding, look at this jupter notebook.
